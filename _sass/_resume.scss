@@ -1,0 +1,111 @@
+// Font Awesome Library
+@fa-font-path:   "../font-awesome/fonts";
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #292929;
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #292929;
+  font-weight: bold;
+}
+
+.resume-wrapper {
+  border: 1px solid rgba(0, 0, 0, 0.025);
+}
+
+.resume-section-heading {
+  position: relative;
+  padding-bottom: 1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.15rem;
+  color: #292929;
+  display: inline-block;
+  position: relative;
+  font-weight: 500;
+   &:before {
+    position: absolute;
+    content: '';
+    background-color: #0080ff;
+    height: 8px;
+    width: 25px;
+    bottom: -5px;
+    z-index: 1;
+    display: inline-block;
+   }
+   &:after {
+    position: absolute;
+    content: '';
+    background-color: #ddd;
+    height: 1px;
+    width: 75%;
+    display: inline-block;
+    bottom: -2px;
+    left: 25px;
+   }
+}
+
+.resume-section-icon-color {
+  color: #0080ff;
+}
+
+.resume-name {
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  color: #0080ff;
+}
+
+.resume-tagline {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #292929;
+}
+
+.resume-contact {
+  font-size: 0.75rem;
+}
+
+a.resume-link {
+  color: #292929;
+  &:hover {
+    color: #0080ff;
+  }
+}
+
+.resume-main {
+  .item-title {
+    font-size: 1rem;
+  }
+  .item-meta {
+     font-size: 0.75rem;
+  }
+  .item-content {
+    font-size: 0.875rem;
+  }
+}
+
+.resume-aside {
+  .item {
+    font-size: 0.875rem;
+  }
+  .item-title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .resume-aside {
+    border-left: 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .resume-contact {
+    border-left: 0;
+  }
+}

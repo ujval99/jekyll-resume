@@ -1,0 +1,12 @@
+{% if site.resume_section_links %}
+<ul class="list-unstyled mb-0">
+  {% for links in site.data.links %}
+    <li class="mb-2">
+      <i class="{{ links.icon }} fa-fw fa-lg mr-2"></i>
+      <a href="{{ links.url }}" class="resume-link">
+        {{ links.text }}
+      </a>
+    </li>
+  {% endfor %}
+</ul>
+{% endif %}

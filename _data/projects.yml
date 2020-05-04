@@ -1,0 +1,13 @@
+# Projects
+
+- project: Friday Media Groups
+  role: Drupal, Zurb, SASS
+  description: Friday Media Group have their own two product platforms - Spidersnet and Marketplace Infinity which are currently running under Drupal-7.
+
+- project: Configrd
+  role: Hugo
+  description: Hugo Theme Development based on the GitBook Design. Configrd is a SaaS startup and they wanted a GitBook lookalike theme for Hugo to host their documentation on Netlify. The theme is now opensource.
+
+- project: Couples Resorts
+  role: Hugo
+  description: A massive site with over 400 pages and very complex design migration to Hugo to replace their existing PHP based CMS.

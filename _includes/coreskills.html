@@ -1,0 +1,15 @@
+{% if site.resume_section_coreskills %}
+<section class="project-section py-3 mt-5">
+  <h3 class="text-uppercase resume-section-heading mb-4">{{ "Core Skills" }}</h3>
+  <ul class="list-inline row text-muted">
+    {% for skill in site.data.coreskills %}
+      <li class="col-md-3 list-inline-item mb-lg-0 mr-0">
+        <div>
+          <i class="fa fa-check-square fa-x mr-2 resume-section-icon-color" data-fa-transform="down-4"></i>
+          <span class="d-lg-inline-block text-muted">{{ skill.skill }}</span>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

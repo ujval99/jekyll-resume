@@ -1,0 +1,10 @@
+{% if site.resume_section_experience %}
+<section class="skills-section py-3">
+  <h3 class="text-uppercase resume-section-heading mb-4">{{ "experience" }}</h3>
+  <ul class="list-unstyled resume-lang-list">
+    {% for experience in site.data.experience %}
+      <li class="mb-2">{{ experience.title }} <span class="text-muted">{{ experience.duration }}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

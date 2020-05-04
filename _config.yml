@@ -1,0 +1,24 @@
+# Site settings
+title: "Resume Exercise"
+description: "Jekyll based resume template."
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_name:                    "Ujval"
+resume_title:                   "Front-End Developer"
+resume_header_intro: "I have 8+ years of experience in web application development using React JS, Node.js, Jamstack, Drupal, drupal headless. During early stage I’d work with drupal development. As technology changes I’ve jumped into various tech and improved my skills time by time. I used agile methodology for development. I have been working on various sector's projects like IT marketplace for innovations, solar power in energy sector, start-up data insights in sport sector, etc. I’ve worked with fortune 500 companies and able to work with different time zone."
+
+# Section visibility
+resume_section_coreskills:      true
+resume_section_experience:      true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_links:          true
+
+# Design settings
+resume_theme:                   default
